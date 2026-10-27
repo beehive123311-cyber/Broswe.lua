@@ -1,6 +1,6 @@
-return(function(u1dFl, ...)
-local uZtziE = {"8PjK2Qi5";"N2fsRxAcQ8k";"FGAUYbTVVRyCSncv";"eIlcMtQrx";"WQS"}
-local cEKV0XWV = function(...)
+return(function(55Z9j, ...)
+local 8Tee83 = {"X4ZOLZ13NCxJ";"mjr9sgMzqMhaiu";"fzyXBNVNcKi";"uR6xsUBBAxsO";"DySHW84LeJ";"aKqJTetqr7N";"PFzJ3wxenF";"PrzW";"lk6EMh";"1PiCjjXM9";"U4Yc13Jkfgtv";"tclvKsGnCyuJ";"Xy4kZ8FPFX6";"uzt61GmG97u5flg6"}
+local bROSpB2e = function(...)
 -- Rayfield - Broswe Hub | Noob Incremental (Full Updated + Halloween Event)
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
@@ -1401,4 +1401,619 @@ Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB0aWVyIGx1Y2s="))(
 Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB0aGUgcmFkaWFuY2UgYmFsYW5jZQ=="))(), CurrentValue = false, Callback = function(v) autoTheRadianceBalanceEnabled = v end})
 Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIG1vcmUgcmFkaWFuY2U="))(), CurrentValue = false, Callback = function(v) autoMoreMoreRadianceEnabled = v end})
 Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIG1vbWVudHVt"))(), CurrentValue = false, Callback = function(v) autoMoreMomentumRadianceEnabled = v end})
-Realm6Tab:CreateToggle({Name = lo
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBzdGFybGlnaHQgcG93ZXI="))(), CurrentValue = false, Callback = function(v) autoStarlightPowerRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB0aHVuZGVyIHBvd2Vy"))(), CurrentValue = false, Callback = function(v) autoThunderPowerRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBzdWNoIGEgbW9tZW50"))(), CurrentValue = false, Callback = function(v) autoSuchAMomentRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBzdWNoIGEgYnVyZGVu"))(), CurrentValue = false, Callback = function(v) autoSuchABurdenRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBzdWNoIGEgZ2xvcnk="))(), CurrentValue = false, Callback = function(v) autoSuchAGloryRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBsb29rIHVwIHRoZSBza3k="))(), CurrentValue = false, Callback = function(v) autoLookUpTheSkyRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBzdGFybGlnaHQgYWdhaW4="))(), CurrentValue = false, Callback = function(v) autoStarlightAgainRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBidXJkZW4gYWdhaW4="))(), CurrentValue = false, Callback = function(v) autoBurdenAgainRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB1cGdyYWRlIHBpbGxhciAx"))(), CurrentValue = false, Callback = function(v) autoUpgradePillar1Enabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB1cGdyYWRlIHBpbGxhciAy"))(), CurrentValue = false, Callback = function(v) autoUpgradePillar2Enabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB1cGdyYWRlIHBpbGxhciAz"))(), CurrentValue = false, Callback = function(v) autoUpgradePillar3Enabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB1cGdyYWRlIHBpbGxhciA0"))(), CurrentValue = false, Callback = function(v) autoUpgradePillar4Enabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB1cGdyYWRlIHBpbGxhciA1"))(), CurrentValue = false, Callback = function(v) autoUpgradePillar5Enabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("RW5hYmxlIGFsbCBwaWxsYXJzIHVwZ3JhZGVz"))(), CurrentValue = false, Callback = function(v) autoAllPillarsEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBzdW4gcGlsbGFyIHJhbms="))(), CurrentValue = false, Callback = function(v) autoSunPillarRankEnabled = v end})
+
+Realm6Tab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKtkCBTdGFybGlnaHQgVXBncmFkZXMg4pWQ4pWQ4pWQ"))())
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIHN0YXJsaWdodA=="))(), CurrentValue = false, Callback = function(v) autoMoreStarlightEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBzdGVsbGFyIFJhZGlhbmNl"))(), CurrentValue = false, Callback = function(v) autoStellarRadianceEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIHRodW5kZXI="))(), CurrentValue = false, Callback = function(v) autoMoreThunderEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBjb3NtaWMgb29m"))(), CurrentValue = false, Callback = function(v) autoCosmicOofEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBydW5lIGJ1bGshPw=="))(), CurrentValue = false, Callback = function(v) autoRuneBulkStarlightEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBhdXRob3JpdHk="))(), CurrentValue = false, Callback = function(v) autoAuthorityStarlightEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb21lbnR1bQ=="))(), CurrentValue = false, Callback = function(v) autoMomentumStarlightEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byByYWRpYW5jZQ=="))(), CurrentValue = false, Callback = function(v) autoRadianceStarlightEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBzdGFybGlnaHQ="))(), CurrentValue = false, Callback = function(v) autoStarlight77Enabled = v end})
+
+Realm6Tab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKaoSBUaHVuZGVyIFVwZ3JhZGVzIOKVkOKVkOKVkA=="))())
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIHRodW5kZXI="))(), CurrentValue = false, Callback = function(v) autoMoreThunderUpgradesEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB0aHVuZGVyIGRhbWFnZQ=="))(), CurrentValue = false, Callback = function(v) autoThunderDamageEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBsaWdodG5pbmcgc3BlZWQ="))(), CurrentValue = false, Callback = function(v) autoLightningSpeedEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB3ZWFrIHBvaW50IHBvd2Vy"))(), CurrentValue = false, Callback = function(v) autoWeakPointPowerEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIHJhZGlhbmNl"))(), CurrentValue = false, Callback = function(v) autoMoreRadianceThunderEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIHN0YXJsaWdodA=="))(), CurrentValue = false, Callback = function(v) autoMoreStarlightThunderEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBDcm9udXMgbm9vYiBwb3dlcg=="))(), CurrentValue = false, Callback = function(v) autoCronusNoobPowerEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBFdmVyIEZlbHQgT3ZlcnBvd2VyZWQ/"))(), CurrentValue = false, Callback = function(v) autoEverFeltOverpoweredEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIHRodW5kZXIgSUk="))(), CurrentValue = false, Callback = function(v) autoMoreThunder2Enabled = v end})
+
+Realm6Tab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKaoSBUaHJvdyBMaWdodG5pbmcg4pWQ4pWQ4pWQ"))())
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byB0aHJvdyBsaWdodG5pbmcgYXQgWmV1cw=="))(), CurrentValue = false, Callback = function(v) autoThrowLightningZeusEnabled = v end})
+
+Realm6Tab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKMmyBDcm9udXMgUmFuayBVcCDilZDilZDilZA="))())
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBDcm9udXMgcmFuayB1cA=="))(), CurrentValue = false, Callback = function(v) autoCronusRankUpEnabled = v end})
+
+Realm6Tab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfkZEgQXV0aG9yaXR5IFVwZ3JhZGVzIOKVkOKVkOKVkA=="))())
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIGF1dGhvcml0eQ=="))(), CurrentValue = false, Callback = function(v) autoMoreAuthorityEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIGJ1cmRlbg=="))(), CurrentValue = false, Callback = function(v) autoMoreBurdenAuthorityEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIGdsb3J5"))(), CurrentValue = false, Callback = function(v) autoMoreGloryAuthorityEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIHN0YXJsaWdodA=="))(), CurrentValue = false, Callback = function(v) autoMoreStarlightAuthorityEnabled = v end})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBtb3JlIHRodW5kZXI="))(), CurrentValue = false, Callback = function(v) autoMoreThunderAuthorityEnabled = v end})
+
+Realm6Tab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfj5vvuI8gQ291bmNpbCBSYW5rIFVwIOKVkOKVkOKVkA=="))())
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBjb3VuY2lsIHJhbmsgdXA="))(), CurrentValue = false, Callback = function(v) autoCouncilRankUpEnabled = v end})
+
+Realm6Tab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfj5/vuI8gQ29sb3NzZXVtIFdhdmVzIOKVkOKVkOKVkA=="))())
+Realm6Tab:CreateInput({
+    Name = loadstring(base64decode("U2VsZWN0IFdhdmUgKDHigJM2NTAp"))(),
+    PlaceholderText = loadstring(base64decode("MjA="))(),
+    RemoveTextAfterFocusLost = false,
+    Callback = function(text)
+        local n = tonumber(text)
+        if n then selectColosseumWave(n) end
+    end
+})
+Realm6Tab:CreateToggle({
+    Name = loadstring(base64decode("QXV0byBDb2xvc3NldW0gV2F2ZXM="))(),
+    CurrentValue = false,
+    Callback = function(v)
+        autoColosseumWavesEnabled = v
+        if v then
+            selectColosseumWave(selectedColosseumWave)
+            task.wait(0.5)
+            task.spawn(function()
+                while autoColosseumWavesEnabled do
+                    fireMain(loadstring(base64decode("U2VsZWN0Q29sb3NzZXVtV2F2ZQ=="))(), selectedColosseumWave)
+                    task.wait(0.3)
+                    fireMain(loadstring(base64decode("U3RhcnRDb2xvc3NldW0="))())
+                    task.wait(1.0)
+                end
+            end)
+        end
+    end
+})
+Realm6Tab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfj4cgQXV0byBDaGFyaW90IOKVkOKVkOKVkA=="))())
+Realm6Tab:CreateToggle({
+    Name = loadstring(base64decode("QXV0byBDaGFyaW90"))(),
+    CurrentValue = false,
+    Callback = function(v)
+        autoChariotEnabled = v
+        if v then
+            task.spawn(function()
+                startAutoChariot()
+            end)
+            Rayfield:Notify({Title = loadstring(base64decode("QXV0byBDaGFyaW90"))(), Content = loadstring(base64decode("VFAgYmVoaW5kIGNhcnQg4oaSIHdhaXQg"))() .. chariotStartDelay .. loadstring(base64decode("cyDihpIgd2Fsaw=="))(), Duration = 4})
+        else
+            stopAutoChariot()
+        end
+    end
+})
+Realm6Tab:CreateToggle({Name = loadstring(base64decode("QXV0byBDaGFyaW90IFJhbmsgVXA="))(), CurrentValue = false, Callback = function(v) autoChariotRankUpEnabled = v end})
+
+EventRealmTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKavSBFdmVudCDilZDilZDilZA="))())
+EventRealmTab:CreateToggle({Name = loadstring(base64decode("QXV0byBLaWNr"))(), CurrentValue = false, Callback = function(v) autoKickEnabled = v end})
+EventRealmTab:CreateToggle({Name = loadstring(base64decode("TW9yZSBHb2Fscw=="))(), CurrentValue = false, Callback = function(v) autoMoreGoalsEnabled = v end})
+EventRealmTab:CreateToggle({Name = loadstring(base64decode("Ri5SdW5lIEJ1bGs="))(), CurrentValue = false, Callback = function(v) autoRuneBulkEnabled = v end})
+EventRealmTab:CreateToggle({Name = loadstring(base64decode("Ri5SdW5lIEx1Y2s="))(), CurrentValue = false, Callback = function(v) autoRuneLuckEnabled = v end})
+EventRealmTab:CreateToggle({Name = loadstring(base64decode("Rm9vdGJhbGwgUmFua2luZw=="))(), CurrentValue = false, Callback = function(v) autoFootballRankingEnabled = v end})
+
+AutoMobsTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKalO+4jyBBdXRvIE1vYnMg4pWQ4pWQ4pWQ"))())
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBPcmM="))(), CurrentValue = false, Callback = function(v) autoOrcEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBHb2JsaW4="))(), CurrentValue = false, Callback = function(v) autoGoblinEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBXYXJyaW9y"))(), CurrentValue = false, Callback = function(v) autoWarriorEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBOaW5qYQ=="))(), CurrentValue = false, Callback = function(v) autoNinjaEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBQaXJhdGU="))(), CurrentValue = false, Callback = function(v) autoPirateEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTYW11cmFp"))(), CurrentValue = false, Callback = function(v) autoSamuraiEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBEYXJrIENvbW1hbmRlcg=="))(), CurrentValue = false, Callback = function(v) autoDarkCommanderEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBQaXJhdGUgQ2FwdGFpbg=="))(), CurrentValue = false, Callback = function(v) autoPirateCaptainEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBQaXJhdGUgQWRtaXJhbA=="))(), CurrentValue = false, Callback = function(v) autoPirateAdmiralEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTYW11cmFpIE1hc3Rlcg=="))(), CurrentValue = false, Callback = function(v) autoSamuraiMasterEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("QXV0byBEYXJrIEtuaWdodA=="))(), CurrentValue = false, Callback = function(v) autoDarkKnightEnabled = v visitedMobs = {} end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("SW5zdGFudCBUZWxlcG9ydCAoTW9icyk="))(), CurrentValue = false, Callback = function(v) if v then useTweenMobs = false end end})
+AutoMobsTab:CreateToggle({Name = loadstring(base64decode("U21vb3RoIFR3ZWVuIChNb2JzKQ=="))(), CurrentValue = true, Callback = function(v) if v then useTweenMobs = true end end})
+
+AutoMineTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKbj++4jyBBdXRvIE1pbmluZyDilZDilZDilZA="))())
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBDb2Fs"))(), CurrentValue = false, Callback = function(v) autoCoalEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBQbGF0aW51bQ=="))(), CurrentValue = false, Callback = function(v) autoPlatinumEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBVcmFuaXVt"))(), CurrentValue = false, Callback = function(v) autoUraniumEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBDZWxlc3RpdW0="))(), CurrentValue = false, Callback = function(v) autoCelestiumEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBSdWJ5"))(), CurrentValue = false, Callback = function(v) autoRubyEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBUaXRhbml1bQ=="))(), CurrentValue = false, Callback = function(v) autoTitaniumEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBQYWxsYWRpdW0="))(), CurrentValue = false, Callback = function(v) autoPalladiumEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTaWx2ZXI="))(), CurrentValue = false, Callback = function(v) autoSilverEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBJcm9u"))(), CurrentValue = false, Callback = function(v) autoIronEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBHb2xk"))(), CurrentValue = false, Callback = function(v) autoGoldEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTdG9uZQ=="))(), CurrentValue = false, Callback = function(v) autoStoneEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBDb3BwZXI="))(), CurrentValue = false, Callback = function(v) autoCopperEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBBZXRoZXJpdGU="))(), CurrentValue = false, Callback = function(v) autoAetheriteEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBWb2lkc3RlZWw="))(), CurrentValue = false, Callback = function(v) autoVoidsteelEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBFbXB5cml1bQ=="))(), CurrentValue = false, Callback = function(v) autoEmpyriumEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBGcm9zdGl1bQ=="))(), CurrentValue = false, Callback = function(v) autoFrostiumEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("QXV0byBEcmFnb252ZWlu"))(), CurrentValue = false, Callback = function(v) autoDragonveinEnabled = v visitedOres = {} end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("SW5zdGFudCBUZWxlcG9ydCAoTWluZSk="))(), CurrentValue = false, Callback = function(v) if v then useTweenMine = false end end})
+AutoMineTab:CreateToggle({Name = loadstring(base64decode("U21vb3RoIFR3ZWVuIChNaW5lKQ=="))(), CurrentValue = true, Callback = function(v) if v then useTweenMine = true end end})
+
+RunesTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCflK4gUmVhbG0gMSDilZDilZDilZA="))())
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBCYXNpYyBSdW5l"))(), CurrentValue = false, Callback = function(v) autoBasicRuneEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTdXBlciBSdW5l"))(), CurrentValue = false, Callback = function(v) autoSuperRuneEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBBZHZhbmNlZCBSdW5l"))(), CurrentValue = false, Callback = function(v) autoAdvancedRuneEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBDb3NtaWMgUHJpc20gUnVuZQ=="))(), CurrentValue = false, Callback = function(v) autoCosmicPrismEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBIYWNrZXIgUnVuZQ=="))(), CurrentValue = false, Callback = function(v) autoHackerRuneEnabled = v end})
+RunesTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKdhO+4jyBSZWFsbSAyIOKVkOKVkOKVkA=="))())
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTbm93eSBSdW5l"))(), CurrentValue = false, Callback = function(v) autoSnowyRuneEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBEZWVwIENvcmUgUnVuZQ=="))(), CurrentValue = false, Callback = function(v) autoDeepCoreRuneEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTaGFyZCBSdW5l"))(), CurrentValue = false, Callback = function(v) autoShardEnabled = v end})
+RunesTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfj5zvuI8gUmVhbG0gMyDilZDilZDilZA="))())
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBEdW5lIFJ1bmU="))(), CurrentValue = false, Callback = function(v) autoDuneRuneEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTdW5maXJlIFJ1bmU="))(), CurrentValue = false, Callback = function(v) autoSunfireEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTdW5zdG9ybSBQcmlzbSBSdW5l"))(), CurrentValue = false, Callback = function(v) autoSunstormPrismEnabled = v end})
+RunesTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfjIwgUmVhbG0gNCDilZDilZDilZA="))())
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTdGFybGlnaHQgUnVuZQ=="))(), CurrentValue = false, Callback = function(v) autoStarlightEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBDb3NtYSBSdW5l"))(), CurrentValue = false, Callback = function(v) autoCosmaEnabled = v end})
+RunesTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKYr++4jyBZaW4gYW5kIFlhbmcg4pWQ4pWQ4pWQ"))())
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBEYXJrIFJ1bmU="))(), CurrentValue = false, Callback = function(v) autoDarkRuneEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBMaWdodCBSdW5l"))(), CurrentValue = false, Callback = function(v) autoLightRuneEnabled = v end})
+RunesTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfq6cgUmVhbG0gNSDilZDilZDilZA="))())
+RunesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBVbmRlcndhdGVyIFJ1bmU="))(), CurrentValue = false, Callback = function(v) autoUnderwaterEnabled = v end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("SW5zdGFudCBUZWxlcG9ydCAoUnVuZXMp"))(), CurrentValue = false, Callback = function(v) if v then useTweenRunes = false end end})
+RunesTab:CreateToggle({Name = loadstring(base64decode("U21vb3RoIFR3ZWVuIChSdW5lcyk="))(), CurrentValue = true, Callback = function(v) if v then useTweenRunes = true end end})
+
+CapsulesTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfk6YgQ2Fwc3VsZXMg4pWQ4pWQ4pWQ"))())
+CapsulesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBDbGFzc2ljIENhcHN1bGU="))(), CurrentValue = false, Callback = function(v) autoClassicEnabled = v if v then capsulesHandled.Classic = false end end})
+CapsulesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBTdXBlciBDYXBzdWxl"))(), CurrentValue = false, Callback = function(v) autoSuperEnabled = v if v then capsulesHandled.Super = false end end})
+CapsulesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBBbmNpZW50IENhcHN1bGU="))(), CurrentValue = false, Callback = function(v) autoAncientEnabled = v if v then capsulesHandled.Ancient = false end end})
+CapsulesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBDb3NtaWMgQ2Fwc3VsZQ=="))(), CurrentValue = false, Callback = function(v) autoCosmicEnabled = v if v then capsulesHandled.Cosmic = false end end})
+CapsulesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBZaW4gWWFuZyBDYXBzdWxl"))(), CurrentValue = false, Callback = function(v) autoYinYangEnabled = v if v then capsulesHandled[loadstring(base64decode("WWluIFlhbmc="))()] = false end end})
+CapsulesTab:CreateToggle({Name = loadstring(base64decode("QXV0byBGb290YmFsbCBDYXBzdWxl"))(), CurrentValue = false, Callback = function(v) autoFootballEnabled = v if v then capsulesHandled.Football = false end end})
+CapsulesTab:CreateToggle({Name = loadstring(base64decode("SW5zdGFudCBUZWxlcG9ydCAoQ2Fwc3VsZXMp"))(), CurrentValue = false, Callback = function(v) if v then useTweenCapsules = false end end})
+CapsulesTab:CreateToggle({Name = loadstring(base64decode("U21vb3RoIFR3ZWVuIChDYXBzdWxlcyk="))(), CurrentValue = true, Callback = function(v) if v then useTweenCapsules = true end end})
+
+TrialTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfm6HvuI8gVHJpYWxzIOKVkOKVkOKVkA=="))())
+TrialTab:CreateDropdown({
+    Name = loadstring(base64decode("U2VsZWN0IFRyaWFsIERpZmZpY3VsdHk="))(),
+    Options = {loadstring(base64decode("RWFzeQ=="))(), loadstring(base64decode("TWVkaXVt"))(), loadstring(base64decode("SGFyZA=="))(), loadstring(base64decode("RXh0cmVtZQ=="))()},
+    CurrentOption = {loadstring(base64decode("SGFyZA=="))()},
+    Callback = function(option)
+        if type(option) == loadstring(base64decode("dGFibGU="))() then selectedTrial = option[1] or loadstring(base64decode("SGFyZA=="))()
+        else selectedTrial = option or loadstring(base64decode("SGFyZA=="))() end
+    end,
+})
+TrialTab:CreateToggle({
+    Name = loadstring(base64decode("QXV0byBUcmlhbCAoRW50ZXIgKyBDaGFpbik="))(),
+    CurrentValue = false,
+    Callback = function(v)
+        enabled = v
+        hasTeleportedThisCycle = false
+        visitedTrialMobs = {}
+        lastTrialWaveSeen = 0
+        if not v then inTrial = false postTrialMode = false end
+    end,
+})
+TrialTab:CreateSlider({Name = loadstring(base64decode("TGVhdmUgYXQgV2F2ZQ=="))(), Range = {1, 200}, Increment = 5, CurrentValue = 10, Callback = function(v) leaveAtWave = v end})
+TrialTab:CreateToggle({Name = loadstring(base64decode("QXV0byBMZWF2ZSBUcmlhbA=="))(), CurrentValue = false, Callback = function(v) autoLeaveTrial = v end})
+TrialTab:CreateToggle({
+    Name = loadstring(base64decode("QXV0byBQbGF5IEFmdGVyIFRyaWFs"))(),
+    CurrentValue = false,
+    Callback = function(v) autoPlayAfterTrial = v if not v then postTrialMode = false end end
+})
+TrialTab:CreateToggle({Name = loadstring(base64decode("QXV0byBPcGVuIFQxIFRyaWFsIENoZXN0"))(), CurrentValue = false, Callback = function(v) autoT1ChestEnabled = v end})
+TrialTab:CreateToggle({Name = loadstring(base64decode("QXV0byBUMiBUcmlhbCBDaGVzdA=="))(), CurrentValue = false, Callback = function(v) autoT2ChestEnabled = v end})
+local StatusLabel = TrialTab:CreateLabel(loadstring(base64decode("U3RhdHVzOiBSZWFkeQ=="))())
+TrialTab:CreateLabel(loadstring(base64decode("S2lsbHMgb25seSBhbGl2ZSBtb2JzIOKAoiBjbGVhcnMgd2F2ZSDihpIgbmV4dCBpbnN0YW50bHk="))())
+TrialTab:CreateToggle({Name = loadstring(base64decode("SW5zdGFudCBUZWxlcG9ydCAoVHJpYWwp"))(), CurrentValue = true, Callback = function(v) if v then useTweenTrial = false end end})
+TrialTab:CreateToggle({Name = loadstring(base64decode("U21vb3RoIFR3ZWVuIChUcmlhbCk="))(), CurrentValue = false, Callback = function(v) if v then useTweenTrial = true end end})
+
+SettingsTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIOKaoSBTcGVlZHMg4pWQ4pWQ4pWQ"))())
+SettingsTab:CreateSlider({Name = loadstring(base64decode("VHJpYWwgVHdlZW4gU3BlZWQ="))(), Range = {0.1, 10}, Increment = 0.1, CurrentValue = 1.0, Callback = function(v) glideSpeed = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("TW9iIFR3ZWVuIFNwZWVk"))(), Range = {0.1, 10}, Increment = 0.1, CurrentValue = 1.0, Callback = function(v) autoMobSpeed = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("UmVhcGVyIE5vb2IgVHdlZW4gU3BlZWQ="))(), Range = {0.1, 10}, Increment = 0.1, CurrentValue = 1.0, Callback = function(v) reaperMobSpeed = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("TWluZSBUd2VlbiBTcGVlZA=="))(), Range = {0.1, 10}, Increment = 0.1, CurrentValue = 1.0, Callback = function(v) autoMineSpeed = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("U3RhciBUd2VlbiBTcGVlZA=="))(), Range = {0.1, 10}, Increment = 0.1, CurrentValue = 1.0, Callback = function(v) starCollectSpeed = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("T3lzdGVycyBUcmVuY2ggU3BlZWQ="))(), Range = {0.05, 1.5}, Increment = 0.05, CurrentValue = 0.25, Callback = function(v) trenchTweenSpeed = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("Q29yYWwgQ29sbGVjdCBEZWxheQ=="))(), Range = {0.05, 1.5}, Increment = 0.05, CurrentValue = 0.35, Callback = function(v) coralCollectDelay = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("Q2hhcmlvdCBTdGFydCBEZWxheQ=="))(), Range = {0.5, 1.5}, Increment = 0.05, CurrentValue = 0.75, Callback = function(v) chariotStartDelay = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("TGlnaHRuaW5nIFRocm93IERlbGF5"))(), Range = {0.05, 2.5}, Increment = 0.05, CurrentValue = 0.5, Callback = function(v) lightningThrowDelay = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("Q29sb3NzZXVtIFdhdmUgKMOXMTAp"))(), Range = {1, 650}, Increment = 10, CurrentValue = 20, Callback = function(v)
+    selectedColosseumWave = math.clamp(math.floor(v), 1, 650)
+    selectColosseumWave(selectedColosseumWave)
+end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("VXBncmFkZSAvIFJhbmsgRGVsYXk="))(), Range = {0.2, 2.0}, Increment = 0.05, CurrentValue = 0.55, Callback = function(v) upgradeSeqDelay = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("VHJpYWwgSW5zdGFudCBEZWxheQ=="))(), Range = {0.02, 0.5}, Increment = 0.02, CurrentValue = 0.08, Callback = function(v) instantTrialDelay = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("TW9iIEluc3RhbnQgRGVsYXk="))(), Range = {0.05, 1.5}, Increment = 0.05, CurrentValue = 0.25, Callback = function(v) instantMobDelay = v end})
+SettingsTab:CreateSlider({Name = loadstring(base64decode("TWluZSBJbnN0YW50IERlbGF5"))(), Range = {0.05, 1.5}, Increment = 0.05, CurrentValue = 0.25, Callback = function(v) instantMineDelay = v end})
+
+SettingsTab:CreateLabel(loadstring(base64decode("4pWQ4pWQ4pWQIPCfm6HvuI8gQW50aSBBRksgLyBBbnRpIExhZyDilZDilZDilZA="))())
+SettingsTab:CreateToggle({Name = loadstring(base64decode("QW50aSBBRksgKEFudGkgS2ljayk="))(), CurrentValue = false, Callback = function(v) antiAFKEnabled = v end})
+SettingsTab:CreateToggle({
+    Name = loadstring(base64decode("QW50aSBMYWc="))(),
+    CurrentValue = false,
+    Callback = function(v)
+        antiLagEnabled = v
+        if v then
+            pcall(function()
+                settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
+                local Lighting = game:GetService(loadstring(base64decode("TGlnaHRpbmc="))())
+                Lighting.GlobalShadows = false
+                Lighting.FogEnd = 9e9
+                for _, obj in ipairs(workspace:GetDescendants()) do
+                    if obj:IsA(loadstring(base64decode("UGFydGljbGVFbWl0dGVy"))()) or obj:IsA(loadstring(base64decode("VHJhaWw="))()) or obj:IsA(loadstring(base64decode("U21va2U="))()) or obj:IsA(loadstring(base64decode("RmlyZQ=="))()) then
+                        obj.Enabled = false
+                    end
+                end
+            end)
+        end
+    end
+})
+
+player.Idled:Connect(function()
+    if antiAFKEnabled then
+        pcall(function()
+            VirtualUser:CaptureController()
+            VirtualUser:ClickButton2(Vector2.new())
+        end)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if antiAFKEnabled then
+            pcall(function()
+                VirtualUser:CaptureController()
+                VirtualUser:ClickButton2(Vector2.new())
+            end)
+        end
+        if antiLagEnabled then
+            pcall(function() settings().Rendering.QualityLevel = Enum.QualityLevel.Level01 end)
+        end
+        task.wait(25)
+    end
+end)
+
+local function nameMatches(mobName)
+    local lower = string.lower(mobName)
+    return (autoOrcEnabled and lower == loadstring(base64decode("b3Jj"))()) or (autoGoblinEnabled and lower == loadstring(base64decode("Z29ibGlu"))())
+        or (autoWarriorEnabled and lower == loadstring(base64decode("d2Fycmlvcg=="))()) or (autoNinjaEnabled and lower == loadstring(base64decode("bmluamE="))())
+        or (autoPirateEnabled and lower == loadstring(base64decode("cGlyYXRl"))()) or (autoSamuraiEnabled and lower == loadstring(base64decode("c2FtdXJhaQ=="))())
+        or (autoDarkCommanderEnabled and lower == loadstring(base64decode("ZGFyayBjb21tYW5kZXI="))())
+        or (autoPirateCaptainEnabled and lower == loadstring(base64decode("cGlyYXRlIGNhcHRhaW4="))())
+        or (autoPirateAdmiralEnabled and lower == loadstring(base64decode("cGlyYXRlIGFkbWlyYWw="))())
+        or (autoSamuraiMasterEnabled and lower == loadstring(base64decode("c2FtdXJhaSBtYXN0ZXI="))())
+        or (autoDarkKnightEnabled and lower == loadstring(base64decode("ZGFyayBrbmlnaHQ="))())
+end
+
+local function anyMobSelected()
+    return autoOrcEnabled or autoGoblinEnabled or autoWarriorEnabled or autoNinjaEnabled
+        or autoPirateEnabled or autoSamuraiEnabled or autoDarkCommanderEnabled
+        or autoPirateCaptainEnabled or autoPirateAdmiral
+        or autoSamuraiMasterEnabled or autoDarkKnightEnabled
+end
+
+local function nameMatchesOre(oreName)
+    local lower = string.lower(oreName)
+    return (autoCoalEnabled and lower == loadstring(base64decode("Y29hbA=="))()) or (autoPlatinumEnabled and lower == loadstring(base64decode("cGxhdGludW0="))())
+        or (autoUraniumEnabled and lower == loadstring(base64decode("dXJhbml1bQ=="))()) or (autoCelestiumEnabled and lower == loadstring(base64decode("Y2VsZXN0aXVt"))())
+        or (autoRubyEnabled and lower == loadstring(base64decode("cnVieQ=="))()) or (autoTitaniumEnabled and lower == loadstring(base64decode("dGl0YW5pdW0="))())
+        or (autoPalladiumEnabled and lower == loadstring(base64decode("cGFsbGFkaXVt"))()) or (autoSilverEnabled and lower == loadstring(base64decode("c2lsdmVy"))())
+        or (autoIronEnabled and lower == loadstring(base64decode("aXJvbg=="))()) or (autoGoldEnabled and lower == loadstring(base64decode("Z29sZA=="))())
+        or (autoStoneEnabled and lower == loadstring(base64decode("c3RvbmU="))()) or (autoCopperEnabled and lower == loadstring(base64decode("Y29wcGVy"))())
+        or (autoAetheriteEnabled and lower == loadstring(base64decode("YWV0aGVyaXRl"))()) or (autoVoidsteelEnabled and lower == loadstring(base64decode("dm9pZHN0ZWVs"))())
+        or (autoEmpyriumEnabled and lower == loadstring(base64decode("ZW1weXJpdW0="))()) or (autoFrostiumEnabled and lower == loadstring(base64decode("ZnJvc3RpdW0="))())
+        or (autoDragonveinEnabled and lower == loadstring(base64decode("ZHJhZ29udmVpbg=="))())
+end
+
+local function anyOreSelected()
+    return autoCoalEnabled or autoPlatinumEnabled or autoUraniumEnabled or autoCelestiumEnabled
+        or autoRubyEnabled or autoTitaniumEnabled or autoPalladiumEnabled or autoSilverEnabled
+        or autoIronEnabled or autoGoldEnabled or autoStoneEnabled or autoCopperEnabled
+        or autoAetheriteEnabled or autoVoidsteelEnabled
+        or autoEmpyriumEnabled or autoFrostiumEnabled or autoDragonveinEnabled
+end
+
+local isRunningMobs = false
+task.spawn(function()
+    while true do
+        if anyMobSelected() and not isRunningMobs then
+            isRunningMobs = true
+            while anyMobSelected() do
+                local targets = {}
+                local mobsFolder = workspace:FindFirstChild(loadstring(base64decode("X19HQU1FX0NPTlRFTlQ="))()) and workspace.__GAME_CONTENT:FindFirstChild(loadstring(base64decode("TW9icw=="))())
+                if mobsFolder then
+                    for _, mobModel in ipairs(mobsFolder:GetChildren()) do
+                        if nameMatches(mobModel.Name) then
+                            local rootPart, humanoid
+                            local mobChar = mobModel:FindFirstChild(loadstring(base64decode("TW9iQ2hhcmFjdGVy"))())
+                            if mobChar then
+                                rootPart = mobChar:FindFirstChild(loadstring(base64decode("SHVtYW5vaWRSb290UGFydA=="))()) or mobChar:FindFirstChild(loadstring(base64decode("VG9yc28="))()) or mobChar.PrimaryPart
+                                humanoid = mobChar:FindFirstChildOfClass(loadstring(base64decode("SHVtYW5vaWQ="))())
+                            end
+                            if not rootPart then rootPart = mobModel:FindFirstChild(loadstring(base64decode("VkZYUGFydA=="))()) end
+                            if not rootPart then
+                                rootPart = mobModel:FindFirstChild(loadstring(base64decode("SHVtYW5vaWRSb290UGFydA=="))()) or mobModel.PrimaryPart or mobModel:FindFirstChildWhichIsA(loadstring(base64decode("QmFzZVBhcnQ="))())
+                            end
+                            if not humanoid then humanoid = mobModel:FindFirstChildOfClass(loadstring(base64decode("SHVtYW5vaWQ="))()) end
+                            if rootPart and ((humanoid and humanoid.Health > 0) or not humanoid) then
+                                local id = mobModel:GetDebugId() or tostring(mobModel)
+                                if not visitedMobs[id] then
+                                    table.insert(targets, {Root = rootPart, Humanoid = humanoid, ID = id})
+                                end
+                            end
+                        end
+                    end
+                end
+                if #targets == 0 then visitedMobs = {} task.wait(0.35)
+                else
+                    for _, mob in ipairs(targets) do
+                        if not anyMobSelected() then break end
+                        if mob.Root and mob.Root.Parent and (not mob.Humanoid or mob.Humanoid.Health > 0) then
+                            visitedMobs[mob.ID] = true
+                            moveTo(mob.Root.Position, autoMobSpeed, useTweenMobs)
+                            task.wait(useTweenMobs and 0.12 or instantMobDelay)
+                        end
+                    end
+                end
+                task.wait(0.05)
+            end
+            isRunningMobs = false
+            visitedMobs = {}
+        end
+        task.wait(0.12)
+    end
+end)
+
+local isRunningMine = false
+task.spawn(function()
+    while true do
+        if anyOreSelected() and not isRunningMine then
+            isRunningMine = true
+            while anyOreSelected() do
+                local targets = {}
+                local oresFolder = workspace:FindFirstChild(loadstring(base64decode("X19HQU1FX0NPTlRFTlQ="))()) and workspace.__GAME_CONTENT:FindFirstChild(loadstring(base64decode("T3Jlcw=="))())
+                if oresFolder then
+                    for _, typeFolder in ipairs(oresFolder:GetChildren()) do
+                        if nameMatchesOre(typeFolder.Name) then
+                            for _, desc in ipairs(typeFolder:GetDescendants()) do
+                                if desc:IsA(loadstring(base64decode("QmFzZVBhcnQ="))()) then
+                                    local id = desc:GetDebugId() or tostring(desc)
+                                    if not visitedOres[id] then table.insert(targets, {Part = desc, ID = id}) end
+                                end
+                            end
+                        end
+                    end
+                end
+                if #targets == 0 then visitedOres = {} task.wait(0.35)
+                else
+                    for _, data in ipairs(targets) do
+                        if not anyOreSelected() then break end
+                        if data.Part and data.Part.Parent then
+                            visitedOres[data.ID] = true
+                            moveTo(data.Part.Position, autoMineSpeed, useTweenMine)
+                            task.wait(useTweenMine and 0.12 or instantMineDelay)
+                        end
+                    end
+                end
+                task.wait(0.05)
+            end
+            isRunningMine = false
+            visitedOres = {}
+        end
+        task.wait(0.12)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if autoCollectStarsEnabled then
+            local root = getRoot()
+            if root then
+                local playerY = root.Position.Y
+                local stars = {}
+                pcall(function()
+                    local folder = workspace:FindFirstChild(loadstring(base64decode("Q2xpZW50U3RhcnM="))())
+                    if folder then
+                        for _, obj in ipairs(folder:GetDescendants()) do
+                            if obj:IsA(loadstring(base64decode("QmFzZVBhcnQ="))()) and obj.Name == loadstring(base64decode("U3RhclBhcnQ="))() and obj.Material == Enum.Material.Neon then
+                                if obj.Position.Y <= playerY + 8 then table.insert(stars, obj) end
+                            end
+                        end
+                    end
+                end)
+                if #stars > 0 then
+                    for _, star in ipairs(stars) do
+                        if not autoCollectStarsEnabled then break end
+                        if star and star.Parent then
+                            moveTo(Vector3.new(star.Position.X, math.min(star.Position.Y, playerY + 2), star.Position.Z), starCollectSpeed, useTweenStars)
+                            task.wait(useTweenStars and 0.1 or instantStarDelay)
+                        end
+                    end
+                else task.wait(0.4) end
+            end
+        else task.wait(0.5) end
+        task.wait(0.05)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if autoCollectChipsEnabled then
+            pcall(function()
+                local root = getRoot()
+                local chip = workspace.__GAME_CONTENT.Contents[loadstring(base64decode("V09STEQgLSA0"))()].Chips[loadstring(base64decode("MQ=="))()].Main
+                if root and chip and chip:IsA(loadstring(base64decode("QmFzZVBhcnQ="))()) and (root.Position - chip.Position).Magnitude > 8 then
+                    root.CFrame = CFrame.new(chip.Position + Vector3.new(0, 3, 0))
+                end
+            end)
+        end
+        if autoMergeChipsEnabled then
+            pcall(function()
+                local root = getRoot()
+                local mergeBtn = workspace.__GAME_CONTENT.Contents[loadstring(base64decode("V09STEQgLSA0"))()].Chips.ChipMergeButton
+                local part = mergeBtn and (mergeBtn:FindFirstChildWhichIsA(loadstring(base64decode("QmFzZVBhcnQ="))(), true) or mergeBtn.PrimaryPart)
+                if root and part and (root.Position - part.Position).Magnitude > 8 then
+                    root.CFrame = CFrame.new(part.Position + Vector3.new(0, 3, 0))
+                end
+            end)
+        end
+        task.wait(0.5)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        if autoSandLayerRestart then
+            local current = getCurrentSandLayer()
+            if typeof(current) == loadstring(base64decode("bnVtYmVy"))() and current > 0 and current >= selectedSandLayer then
+                teleportToResetSand()
+                task.wait(1.8)
+                teleportToSandTop()
+                task.wait(2.5)
+            end
+        end
+        task.wait(0.4)
+    end
+end)
+
+local leavingInProgress = false
+task.spawn(function()
+    while true do
+        if autoLeaveTrial and enabled and inTrial and not leavingInProgress then
+            local wave = getCurrentTrialWave()
+            if wave > 0 and wave >= leaveAtWave then
+                leavingInProgress = true
+                fireMain(loadstring(base64decode("TGVhdmVUcmlhbA=="))())
+                inTrial = false
+                hasTeleportedThisCycle = false
+                visitedTrialMobs = {}
+                lastTrialWaveSeen = 0
+                StatusLabel:Set(loadstring(base64decode("U3RhdHVzOiBMZWZ0IHdhdmUg"))() .. wave)
+                task.wait(5)
+                if autoPlayAfterTrial then
+                    postTrialMode = true
+                    resumePostTrialSystems()
+                end
+                leavingInProgress = false
+            end
+        end
+        task.wait(0.35)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        local root = getRoot()
+        local time = os.date(loadstring(base64decode("KnQ="))())
+        local m, s = time.min, time.sec
+        local isTrialEntryTime = (m == 29 or m == 59) and s >= 5 and s <= 40
+
+        if enabled and isTrialEntryTime and not hasTeleportedThisCycle then
+            postTrialMode = false
+            local pos = getDoorPosition()
+            if pos then
+                local r = getRoot()
+                if r then r.CFrame = CFrame.new(pos.X, pos.Y + 3, pos.Z) end
+                hasTeleportedThisCycle = true
+                inTrial = true
+                visitedTrialMobs = {}
+                lastTrialWaveSeen = 0
+                StatusLabel:Set(loadstring(base64decode("U3RhdHVzOiBFbnRlcmluZyA="))() .. selectedTrial)
+            end
+        end
+        if enabled and (m == 30 or m == 0) and s > 45 then hasTeleportedThisCycle = false end
+
+        if enabled then
+            local wave = getCurrentTrialWave()
+            if wave > 0 then
+                inTrial = true
+                if wave ~= lastTrialWaveSeen then
+                    visitedTrialMobs = {}
+                    lastTrialWaveSeen = wave
+                    StatusLabel:Set(loadstring(base64decode("U3RhdHVzOiBXYXZlIA=="))() .. wave)
+                end
+            elseif not isTrialEntryTime and not leavingInProgress then
+                inTrial = false
+            end
+        else
+            inTrial = false
+        end
+
+        if enabled and inTrial and root then
+            local alive = getAliveTrialMobs()
+            if #alive > 0 then
+                local myPos = root.Position
+                table.sort(alive, function(a, b)
+                    return (a.Root.Position - myPos).Magnitude < (b.Root.Position - myPos).Magnitude
+                end)
+
+                for _, mob in ipairs(alive) do
+                    if not enabled or not inTrial then break end
+                    if mob.Humanoid and mob.Humanoid.Health <= 0 then
+                        visitedTrialMobs[mob.ID] = true
+                    elseif mob.Root and mob.Root.Parent then
+                        visitedTrialMobs[mob.ID] = true
+                        if useTweenTrial then
+                            moveTo(mob.Root.Position, glideSpeed, true)
+                        else
+                            local r = getRoot()
+                            if r then
+                                r.CFrame = CFrame.new(mob.Root.Position + Vector3.new(0, 3, 0))
+                            end
+                        end
+                        task.wait(useTweenTrial and 0.08 or instantTrialDelay)
+                        StatusLabel:Set(loadstring(base64decode("U3RhdHVzOiDihpIg"))() .. mob.Name)
+                    end
+                end
+            else
+                StatusLabel:Set(loadstring(base64decode("U3RhdHVzOiBXYXZlIGNsZWFyIOKGkiBuZXh0Li4u"))())
+                visitedTrialMobs = {}
+                task.wait(0.05)
+            end
+        elseif enabled then
+            StatusLabel:Set(postTrialMode and loadstring(base64decode("U3RhdHVzOiBQb3N0LVRyaWFs"))() or (loadstring(base64decode("U3RhdHVzOiBXYWl0aW5nIA=="))() .. selectedTrial))
+            task.wait(0.15)
+        else
+            StatusLabel:Set(loadstring(base64decode("U3RhdHVzOiBSZWFkeQ=="))())
+            task.wait(0.2)
+        end
+
+        runEnabledCapsulesOnce()
+        if autoBasicRuneEnabled then teleportToRuneZone(loadstring(base64decode("QmFzaWM="))()) task.wait(6) end
+        if autoSuperRuneEnabled then teleportToRuneZone(loadstring(base64decode("U3VwZXI="))()) task.wait(6) end
+        if autoAdvancedRuneEnabled then teleportToRuneZone(loadstring(base64decode("QWR2YW5jZWQ="))()) task.wait(6) end
+        if autoCosmicPrismEnabled then teleportToCosmicPrism() task.wait(6) end
+        if autoHackerRuneEnabled then teleportToHackerRune() task.wait(6) end
+        if autoSnowyRuneEnabled then teleportToSnowyRune() task.wait(6) end
+        if autoDeepCoreRuneEnabled then teleportToDeepCoreRune() task.wait(6) end
+        if autoDuneRuneEnabled then teleportToDuneRune() task.wait(6) end
+        if autoSunfireEnabled then teleportToSunfire() task.wait(6) end
+        if autoSunstormPrismEnabled then teleportToSunstormPrism() task.wait(6) end
+        if autoShardEnabled then teleportToShard() task.wait(6) end
+        if autoStarlightEnabled then teleportToStarlight() task.wait(6) end
+        if autoCosmaEnabled then teleportToCosma() task.wait(6) end
+        if autoDarkRuneEnabled then teleportToDarkRune() task.wait(6) end
+        if autoLightRuneEnabled then teleportToLightRune() task.wait(6) end
+        if autoUnderwaterEnabled then teleportToUnderwater() task.wait(6) end
+        if autoT1ChestEnabled then fireMain(loadstring(base64decode("T3BlbkNoZXN0"))(), loadstring(base64decode("VDFUcmlhbENoZXN0"))(), 10) end
+        if autoT2ChestEnabled then fireMain(loadstring(base64decode("T3BlbkNoZXN0"))(), loadstring(base64decode("VDJUcmlhbENoZXN0"))(), 10) end
+        task.wait(0.01)
+    end
+end)
+
+Rayfield:Notify({
+    Title = loadstring(base64decode("QnJvc3dlIEh1YiBMb2FkZWQ="))(),
+    Content = loadstring(base64decode("RnVsbCBTb3VyY2UgU2NyaXB0IExvYWRlZCE="))(),
+    Duration = 6
+})
+end
+FBUvNEf8(cAVqh)
+end)(...)
